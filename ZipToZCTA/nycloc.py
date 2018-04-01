@@ -55,13 +55,15 @@ def processZipToZCTA(fileList):
 #get
 def getZCTAByZip(zipCode, data):
     try:
-        
+        print("zipcode from file: " + str(zipCode))
         matching = [item for item in data if item.ZipCode == zipCode]
         
         if(len(matching) > 0):
+            print("found match" + str(matching[0].ZCTA))
             return matching[0]
         
-        return None
+        print("no match")
+        return zz.zipToZCTA(0, 0, '', '') #return blank one so no error occurrs, just dumps a 0 in the file
     
     except Exception as e:
         print("Error: " + str(e))
