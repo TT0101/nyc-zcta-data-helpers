@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Mar 15 18:56:21 2018
-
-@author: theresa
+@author: TT
 """
 import FileHelper as fh
 import TypeHelper as th
@@ -13,14 +11,6 @@ def LoadZipToZCTA():
     fileName = r'Datafiles/zip_to_zcta10_nyc_with_NBH.csv'
     return fh.readInCSVDicData(fileName, processZipToZCTA)
     
-#def LoadZCTAToTract():
-#    fileName = r'zcta_tract_rel_10.csv'
-#    return fh.readInCSVDicData(fileName, processZCTAToTract)
-#    
-#def LoadTractToNTA():
-#    fileName = r'CensusToNTA.csv'
-#    return fh.readInCSVDicData(fileName, processTractToNTA)
-
 #process
 def processZipToZCTA(fileList):
     data = []
@@ -31,26 +21,6 @@ def processZipToZCTA(fileList):
         #rowCount += 1
     
     return data
-
-#def processZCTAToTract(fileList):#fix these when classes set up
-#    data = []
-#    #rowCount = 0
-#    for line in fileList:
-#        obj = zt.ZCTAToTract(line['ZCTA5'].strip(), line['TRACT'].strip(), line['ZAREAPCT'], line['TRAREAPCT'])
-#        data.append(obj)            
-#        #rowCount += 1
-#    
-#    return data
-#    
-#def processTractToNTA(fileList):
-#    data = []
-#    #rowCount = 0
-#    for line in fileList:
-#        obj = line#zz.zipToZCTA(line['zipcode'].strip(), line['zcta5'].strip())
-#        data.append(obj)            
-#        #rowCount += 1
-#    
-#    return data
 
 #get
 def getZCTAByZip(zipCode, data):
@@ -91,7 +61,6 @@ def appendZCTADataToFile(fileFrame, zipcol):
     return fileFrame
 
 def run():
-    #print(getZCTAByZip(10001, zipToZCTAFile))
     
     inText = input("Enter the name of the file to add zcta data to (or enter 'exit' to exit): ")
     if inText.upper() != 'EXIT':
