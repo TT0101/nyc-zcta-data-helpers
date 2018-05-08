@@ -162,12 +162,12 @@ zipcode,ziptype,postalcity,zcta5,neighborhoodlabel,boro
 10312,ZIP Code area,Staten Island,10312,"Port Richmond, West Brighton, Edwin Markham Gardens",Staten Island
 10313,Post Office or large volume customer,Staten Island,10314,"Bloomsfield, Chelsea, Bulls Head, Graniteville, Westerleigh, Castelton Corners, Manor Heights, New Springville, Heartland Village",Staten Island
 10314,ZIP Code area,Staten Island,10314,"Bloomsfield, Chelsea, Bulls Head, Graniteville, Westerleigh, Castelton Corners, Manor Heights, New Springville, Heartland Village",Staten Island
-10451,ZIP Code area,Bronx,10451,? (is a point on the map),Bronx
+10451,ZIP Code area,Bronx,10451,South Bronx,Bronx
 10452,ZIP Code area,Bronx,10452,"Highbridge, Mt Eden",Bronx
 10453,ZIP Code area,Bronx,10453,"Morris Heights, University Heights",Bronx
 10454,ZIP Code area,Bronx,10454,"Mott Haven, Port Morris",Bronx
-10455,ZIP Code area,Bronx,10455,? (is a point on the map),Bronx
-10456,ZIP Code area,Bronx,10456,? (is a point on the map),Bronx
+10455,ZIP Code area,Bronx,10455,Woodstock,Bronx
+10456,ZIP Code area,Bronx,10456,Morrisania,Bronx
 10457,ZIP Code area,Bronx,10457,"West Bronx, Mt Hope, Tremont, Belmont",Bronx
 10458,ZIP Code area,Bronx,10458,"Fordham, Belmont",Bronx
 10459,ZIP Code area,Bronx,10459,Foxhurst,Bronx
@@ -266,8 +266,8 @@ zipcode,ziptype,postalcity,zcta5,neighborhoodlabel,boro
 11367,ZIP Code area,Flushing,11367,"Fresh Meadows, Kew Gardens Hills",Queens
 11368,ZIP Code area,Corona,11368,Willets Point,Queens
 11369,ZIP Code area,East Elmhurst,11369,East Elmhurst,Queens
-11370,ZIP Code area,East Elmhurst,11370,"East Elmhurst, Jackson Heights",Queens
-11371,ZIP Code area,Flushing,11371,East Elmhurst,Queens
+11370,ZIP Code area,East Elmhurst,11370,East Elmhurst,Queens
+11371,ZIP Code area,Flushing,11371,LaGuardia Airport,Queens
 11372,ZIP Code area,Jackson Heights,11372,Jackson Heights,Queens
 11373,ZIP Code area,Elmhurst,11373,Elmhurst,Queens
 11380,Post Office or large volume customer,Elmhurst,11373,Elmhurst,Queens
